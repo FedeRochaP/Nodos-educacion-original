@@ -1,0 +1,120 @@
+#pagos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.pagos-container {
+    background-image: url('../img/gradienterojoazul.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 10px 0 10px;
+}
+
+.pagos-container h1 {
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+}
+
+.pagos-container p {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pagos-boxes {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.p-box {
+    background: #fff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    filter: drop-shadow(5px 5px 10px grey);
+}
+
+.p-box h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.p-box h1 span {
+    font-size: 35px;
+}
+
+.p-box h2 {
+    color: #0672d5;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-box p {
+    font-size: 18px;
+    color: black;
+}
+
+.p-box li {
+    text-align: center;
+    list-style: none;
+    color: black;
+    margin: 10px;
+}
+
+.p-box hr {
+    border: 1px dotted rgb(221, 221, 221);
+}
+
+.p-box button {
+    border-radius: 25px;
+}
+
+.b-1 {
+    height: 500px;
+}
+
+.b-2 {
+    height: 630px;
+}
+
+.b-3 {
+    height: 730px;
+}
+
+@media screen and (max-width: 1050px) {
+    .pagos-container {
+        background-size: cover;
+        padding-bottom: 50px;
+    }
+
+    .pagos-container h1 {
+        font-size: 35px;
+    }
+    
+    .pagos-container p {
+        font-size: 20px;
+    }
+
+    .pagos-boxes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

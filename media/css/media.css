@@ -1,0 +1,150 @@
+/* Home */
+
+@media screen and (max-width: 1400px) { 
+    .hero {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .cont-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont-form {
+        width: 100% !important;
+        align-items: center !important;
+    }
+
+    .cont-img {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    header {
+        justify-content: space-between !important;
+        padding: 0 30px;
+    }
+    
+    .nav-menu {
+        display: none;
+    }
+    
+    .burger-menu {
+        display: block !important;
+    }
+
+    #hero {
+        padding: 0 !important;
+    }
+
+    .hero {
+        height: 100% !important;
+    }
+
+    .hero h1 {
+        font-size: 30px !important;
+    }
+    
+    .hero p {
+        font-size: 20px !important;
+    }
+
+    #nodos {
+        padding-top: 20px;
+    }
+
+    .nodos-text {
+        width: 100% !important;
+    }
+
+    .nodos-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nodos-box-1, .nodos-box-2 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .nodos-text {
+        padding: 0 40px !important;
+    }
+
+    .nodos-container {
+        padding: 0 40px !important;
+    }
+
+    .nodos-box-2 {
+        text-align: center !important;
+        align-items: center !important;
+    }
+
+    .soluciones-text {
+        width: 80% !important;
+    }
+
+    .servicios-text {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .soluciones-tel img {
+        width: 250px !important;
+    }
+
+    .cont-container {
+        width: 90% !important;
+    }
+}
+
+
+/* Inicial */
+
+@media screen and (max-width: 1400px) { 
+    .hero-inicial {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #hero-inicial {
+        padding: 0 !important;
+    }
+    
+    .hero-inicial {
+        border-radius: 0px !important;
+    }
+
+    .hero-inicial  h1 {
+        font-size: 30px !important;
+    }
+    
+    .hero-inicial  p {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tarjeta-incial {
+        height: 100% !important;
+    }
+    
+    .tarjeta-box {
+        padding: 15px 15px 120px 15px;
+    }
+
+    .t-box-img-2 img {
+        position: initial !important;
+        width: 100% !important;
+    }
+}
