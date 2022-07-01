@@ -1,0 +1,64 @@
+#hero-primario {
+    height: 100vh;
+    max-height: 70vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-primario {
+    background-image: url('../img/main-primario.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1100px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.hero-text-primario {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 90px;
+    gap: 10px;
+}
+
+.hero-primario h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-primario p {
+    font-size: 25px;
+}
+
+#primario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.primario-text {
+    text-align: center;
+    width: 100%;
+    max-width: 1100px;
+    padding: 10px;
+}
+
+.primario-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.primario-text p {
+    font-size: 25px;
+    margin-top: 20px;
+}
